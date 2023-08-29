@@ -1,0 +1,51 @@
+#page_calendario .swiper {
+    margin-top: 40px;
+}
+
+#page_calendario .swiper .slide {
+    background-color: var(--color-azul);
+    padding: 20px;
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+#page_calendario .swiper .slide h6 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#page_calendario .item {
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+#page_calendario .item span {
+    color: var(--color-celeste);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#page_calendario .item p {
+    color: var(--color-azul);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#page_calendario .item .check {
+    height: 20px;
+    position: absolute;
+    left: -10px;
+    top: calc(50% - 10px);
+}
+

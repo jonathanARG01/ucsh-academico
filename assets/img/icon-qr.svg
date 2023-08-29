@@ -1,0 +1,16 @@
+<svg id="qr-code" xmlns="http://www.w3.org/2000/svg" width="24.302" height="24.302" viewBox="0 0 24.302 24.302">
+  <path id="Trazado_2038" data-name="Trazado 2038" d="M36,40.736V39h1.736v1.736Z" transform="translate(-16.906 -18.17)" fill="#004777"/>
+  <path id="Trazado_2039" data-name="Trazado 2039" d="M27,34.736V33h1.736v1.736Z" transform="translate(-13.113 -15.641)" fill="#004777"/>
+  <path id="Trazado_2040" data-name="Trazado 2040" d="M27,42.472h3.472V40.736H28.736V39H27Z" transform="translate(-13.113 -18.17)" fill="#004777"/>
+  <path id="Trazado_2041" data-name="Trazado 2041" d="M39,36.472V33h1.736v3.472Z" transform="translate(-18.17 -15.641)" fill="#004777"/>
+  <path id="Trazado_2042" data-name="Trazado 2042" d="M40.736,39h1.736v3.472H39V40.736h1.736Z" transform="translate(-18.17 -18.17)" fill="#004777"/>
+  <path id="Trazado_2043" data-name="Trazado 2043" d="M39,28.736V27h3.472v3.472H40.736V28.736Z" transform="translate(-18.17 -13.113)" fill="#004777"/>
+  <path id="Trazado_2044" data-name="Trazado 2044" d="M33.472,30H31.736v3.472H30v1.736h3.472Z" transform="translate(-14.377 -14.377)" fill="#004777"/>
+  <path id="Trazado_2045" data-name="Trazado 2045" d="M27,28.736V27h3.472v1.736Z" transform="translate(-13.113 -13.113)" fill="#004777"/>
+  <path id="Trazado_2046" data-name="Trazado 2046" d="M9,33h3.472v3.472H9Z" transform="translate(-5.528 -15.641)" fill="#004777"/>
+  <path id="Trazado_2047" data-name="Trazado 2047" d="M13.415,37.415H3V27H13.415ZM4.736,35.679h6.943V28.736H4.736Z" transform="translate(-3 -13.113)" fill="#004777"/>
+  <path id="Trazado_2048" data-name="Trazado 2048" d="M33,9h3.472v3.472H33Z" transform="translate(-15.641 -5.528)" fill="#004777"/>
+  <path id="Trazado_2049" data-name="Trazado 2049" d="M37.415,13.415H27V3H37.415Zm-8.679-1.736h6.943V4.736H28.736Z" transform="translate(-13.113 -3)" fill="#004777"/>
+  <path id="Trazado_2050" data-name="Trazado 2050" d="M9,9h3.472v3.472H9Z" transform="translate(-5.528 -5.528)" fill="#004777"/>
+  <path id="Trazado_2051" data-name="Trazado 2051" d="M13.415,13.415H3V3H13.415ZM4.736,11.679h6.943V4.736H4.736Z" transform="translate(-3 -3)" fill="#004777"/>
+</svg>

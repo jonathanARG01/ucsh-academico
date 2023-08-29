@@ -1,0 +1,29 @@
+/*============ Utils =============*/
+@import 'assets/css/utils/reset.css';
+@import 'assets/css/utils/colors.css';
+@import 'assets/css/general.css';
+
+/*========== Components ==========*/
+@import 'assets/css/components/head.css';
+@import 'assets/css/components/menu.css';
+@import 'assets/css/components/menu_vertical.css';
+@import 'assets/css/components/scrolls.css';
+@import 'assets/css/components/sidebar.css';
+@import 'assets/css/components/tabs.css';
+@import 'assets/css/components/selects.css';
+@import 'assets/css/components/tables.css';
+@import 'assets/css/components/credencial.css';
+
+/*=========== Pages ============*/
+@import 'assets/css/pages/page-login.css';
+@import 'assets/css/pages/page-home.css';
+@import 'assets/css/pages/page-asistencia.css';
+@import 'assets/css/pages/page-soporte.css';
+@import 'assets/css/pages/page-casino.css';
+@import 'assets/css/pages/page-oferta.css';
+@import 'assets/css/pages/page-calendario.css';
+@import 'assets/css/pages/page-noticias.css';
+
+
+
+

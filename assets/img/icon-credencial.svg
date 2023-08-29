@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="19.333" viewBox="0 0 28 19.333">
+  <g id="card" transform="translate(-3 -11.5)">
+    <path id="Trazado_1934" data-name="Trazado 1934" d="M3,30.438a3.5,3.5,0,0,0,3.5,3.5h21a3.5,3.5,0,0,0,3.5-3.5V20.813H3Zm4.125-4.75A1.875,1.875,0,0,1,9,23.813h3a1.875,1.875,0,0,1,1.875,1.875v1.25A1.875,1.875,0,0,1,12,28.813H9a1.875,1.875,0,0,1-1.875-1.875Z" transform="translate(0 -3.104)" fill="#004777"/>
+    <path id="Trazado_1935" data-name="Trazado 1935" d="M27.5,7.5H6.5A3.5,3.5,0,0,0,3,11v1.625H31V11A3.5,3.5,0,0,0,27.5,7.5Z" transform="translate(0 4)" fill="#004777"/>
+  </g>
+</svg>

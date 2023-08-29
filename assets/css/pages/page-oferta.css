@@ -1,0 +1,163 @@
+#page_oferta_academica .swiper .slide {
+    background-color: var(--color-azul);
+    padding: 20px;
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+#page_oferta_academica .swiper .slide h6 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+#page_oferta_academica .item-oferta {
+    width: 100%;
+    padding: 20px;
+    border-left: 4px solid var(--color-amarillo);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+#page_oferta_academica .item-oferta span {
+    color: var(--color-celeste);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#page_oferta_academica .item-oferta h6 {
+    color: var(--color-azul);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+#page_oferta_academica .accordion .accordion-item {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#page_oferta_academica .accordion .accordion-item button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 10px;
+}
+
+#page_oferta_academica .accordion .accordion-item button::after {
+    display: none;
+}
+
+#page_oferta_academica .accordion .accordion-item .tema {
+    color: var(--color-azul);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#page_oferta_academica .accordion .accordion-item .persona {
+    color: var(--color-celeste);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#page_oferta_academica .accordion .accordion-item button > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#page_oferta_academica .accordion .accordion-item button .seccion {
+    color: var(--color-azul);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#page_oferta_academica .accordion .accordion-item button .horario {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-azul);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#page_oferta_academica .accordion .accordion-item button .horario .flecha {
+    transform: rotate(180deg);
+    transition-duration: .3s;
+}
+
+#page_oferta_academica .accordion .accordion-item button.collapsed .horario .flecha {
+    transform: rotate(0deg);
+    transition-duration: .3s;
+}
+
+#page_oferta_academica .accordion .accordion-item button .horario span {
+    margin: 0 10px;
+}
+
+#page_oferta_academica .accordion .accordion-item .accordion-collapse {
+    color: var(--color-azul);
+}
+
+#page_oferta_academica .accordion .accordion-item .accordion-collapse .accordion-body {
+    padding: 10px;
+}
+
+#page_oferta_academica .accordion .accordion-item .accordion-collapse .accordion-body table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#page_oferta_academica .accordion .accordion-item .accordion-collapse .accordion-body table tr td {
+    padding: 6px 0 !important;
+    color: var(--color-azul);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#page_oferta_academica .accordion .accordion-item .accordion-collapse .accordion-body table tr td:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page_oferta_academica .accordion .accordion-item .accordion-collapse .accordion-body table tr td span {
+    color: var(--color-celeste);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#page_oferta_academica .accordion .accordion-item .accordion-collapse .accordion-body table tr td img {
+    height: 20px;
+}
+
+#page_oferta_academica .accordion .accordion-item .accordion-collapse .accordion-body table .dia {
+    justify-content: flex-start !important;
+    padding-left: 30px !important;
+}
+

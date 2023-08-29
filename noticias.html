@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>UCSH - Academico Noticias</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		  
+
+		<!-- Sidebar -->
+		<div id="sidebar" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="sidebarLabel">
+			
+			<div class="offcanvas-header">
+				<div class="close" data-bs-dismiss="offcanvas" aria-label="Close">
+					<div class="btn">
+						<img src="./assets/img/flecha2.svg">
+					</div>
+					<span>Volver</span>
+				</div>
+			</div>
+			
+			<div class="offcanvas-body">
+
+				<div class="avatar">
+					<img src="./assets/img/avatar.png">
+					<div class="box-file">
+						<input type="file">
+						<p>Cambiar foto</p>
+					</div>
+				</div>
+				
+				<ul>
+					<li>
+						<h6>Nombre</h6>
+						<p>
+							Apellido apellido, <br>
+							Nombre, nombre
+						</p>
+					</li>
+					<li>
+						<h6>Rut</h6>
+						<p>11970085</p>
+					</li>
+					<li>
+						<h6>NÚMERO DE MATRÍCULA</h6>
+						<p>1611168</p>
+					</li>
+					<li>
+						<h6>Carrera</h6>
+						<p>Pedagogía en Filosofía</p>
+					</li>
+					<li>
+						<h6>Email</h6>
+						<p>abarichivich@miucsh.cl</p>
+					</li>
+				</ul>
+				
+			</div>
+
+		</div>
+
+		
+		<div id="page_noticias" class="page">
+
+			<!-- Head -->
+			<div class="head">
+                
+                <a href="./home.html" class="close">
+					<div class="btn">
+						<img src="./assets/img/flecha-azul1.svg">
+					</div>
+					<span>Volver</span>
+				</a>
+
+				<div class="box-avatar" data-bs-toggle="offcanvas" href="#sidebar">
+					<p>Mi perfil</p>
+					<div class="avatar">
+						<img src="./assets/img/avatar.png" alt="avatar">
+					</div>
+				</div>
+                
+			</div>
+
+            <!-- Box Title -->
+            <div class="box-title">
+                <h4>Noticias</h4>
+            </div>
+
+
+			<!-- Filtros -->
+			<div class="box-filtros" class="mb-3">
+				
+				<input type="text" class="form-control" id="inputSearch" placeholder="Buscar">
+
+				<div class="box-selects">
+					
+					<select class="form-select">
+						
+						<option selected>Filtrar</option>
+						<option value="2">Facultad de Ciencias Sociales y jurídica</option>
+						<option value="3">Facultad de Ciencias Sociales y jurídica</option>
+						<option value="4">Facultad de Ciencias Sociales y jurídica</option>
+						<option value="5">Facultad de Ciencias Sociales y jurídica</option>
+					</select>
+	
+					<select class="form-select">
+						<option selected>Ordenar por</option>
+						<option value="2">Escuela de Derecho</option>
+						<option value="3">Escuela de Derecho</option>
+						<option value="4">Escuela de Derecho</option>
+						<option value="5">Escuela de Derecho</option>
+					</select>
+	
+				</div>
+
+			</div>
+            
+
+			<section class="container-noticias">
+
+				<div class="noticia">
+					<div class="row">
+						<div class="col-4">
+							<img class="img" src="./assets/img/noticia1.jpg">
+						</div>
+						<div class="col-8">
+							<h6>Lorem ipsum dolor</h6>
+							<span>13 Agosto 2023</span>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+							<a href="./noticia-detalle.html">leer más <img src="./assets/img/flecha1.svg"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="noticia">
+					<div class="row">
+						<div class="col-4">
+							<img class="img" src="./assets/img/noticia2.jpg">
+						</div>
+						<div class="col-8">
+							<h6>Lorem ipsum dolor</h6>
+							<span>13 Agosto 2023</span>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+							<a href="./noticia-detalle.html">leer más <img src="./assets/img/flecha1.svg"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="noticia">
+					<div class="row">
+						<div class="col-4">
+							<img class="img" src="./assets/img/noticia3.jpg">
+						</div>
+						<div class="col-8">
+							<h6>Lorem ipsum dolor</h6>
+							<span>13 Agosto 2023</span>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+							<a href="./noticia-detalle.html">leer más <img src="./assets/img/flecha1.svg"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="noticia">
+					<div class="row">
+						<div class="col-4">
+							<img class="img" src="./assets/img/noticia4.jpg">
+						</div>
+						<div class="col-8">
+							<h6>Lorem ipsum dolor</h6>
+							<span>13 Agosto 2023</span>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+							<a href="./noticia-detalle.html">leer más <img src="./assets/img/flecha1.svg"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="noticia">
+					<div class="row">
+						<div class="col-4">
+							<img class="img" src="./assets/img/noticia5.jpg">
+						</div>
+						<div class="col-8">
+							<h6>Lorem ipsum dolor</h6>
+							<span>13 Agosto 2023</span>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+							<a href="./noticia-detalle.html">leer más <img src="./assets/img/flecha1.svg"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="noticia">
+					<div class="row">
+						<div class="col-4">
+							<img class="img" src="./assets/img/noticia6.jpg">
+						</div>
+						<div class="col-8">
+							<h6>Lorem ipsum dolor</h6>
+							<span>13 Agosto 2023</span>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+							<a href="./noticia-detalle.html">leer más <img src="./assets/img/flecha1.svg"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="noticia">
+					<div class="row">
+						<div class="col-4">
+							<img class="img" src="./assets/img/noticia7.jpg">
+						</div>
+						<div class="col-8">
+							<h6>Lorem ipsum dolor</h6>
+							<span>13 Agosto 2023</span>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+							<a href="./noticia-detalle.html">leer más <img src="./assets/img/flecha1.svg"></a>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+
+		</div>
+
+        
+
+		<!-- Menu -->
+		<div id="menu">
+			
+			<a data-bs-toggle="modal" data-bs-target="#modalCredencial">
+				<div class="img">
+					<img src="./assets/img/icon-credencial.svg">
+				</div>
+				<p>Credencial</p>
+			</a>
+
+			<a href="./calendario.html" class="active">
+				<div class="img">
+					<img src="./assets/img/icon-calendario.svg">
+				</div>
+				<p>Calendario</p>
+			</a>
+
+			<a href="./soporte.html" class="">
+				<div class="img">
+					<img src="./assets/img/icon-soporte.svg">
+				</div>
+				<p>Soporte</p>
+			</a>
+
+		</div>
+
+
+
+
+		<!-- Modal Credencial -->
+		<div class="modal fade" id="modalCredencial" tabindex="-1" aria-labelledby="modalCredencialLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					
+					<div class="head">
+						<div class="close" data-bs-dismiss="modal" aria-label="Close">
+							<div class="btn">
+								<img src="./assets/img/flecha-azul1.svg">
+							</div>
+							<span>Volver</span>
+						</div>
+						<img class="logo" src="./assets/img/logo2.svg" alt="logo">
+					</div>
+
+
+					<div class="modal-body">
+
+						<div class="row">
+
+							<div class="col-6">
+								<ul>
+									<li>Nombre Nombre Apellido Apellido</li>
+									<li>11970085-k</li>
+									<li>Ing. En Administración</li>
+									<li><span>Número de Matrícula</span> 1611168</li>
+									<li>abarichivich@miucsh.cl</li>
+								</ul>
+								<button class="btn btn-qr">
+									<img src="./assets/img/icon-qr.svg">
+									<span>Marcar asistencia</span>
+									<img src="./assets/img/flecha-azul2.svg">
+								</button>
+							</div>
+
+							<div class="col-6 d-flex justify-content-center align-items-center">
+								<img class="avatar" src="./assets/img/avatar.png">
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="box-border">
+						<img src="./assets/img/lines.svg">
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+		<script src="./assets/js/slider.js"></script>
+
+	</body>
+
+</html>

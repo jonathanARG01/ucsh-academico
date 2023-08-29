@@ -1,0 +1,63 @@
+#modalCredencial .modal-content {
+    padding: 10px;
+    border-radius: 0;
+    background-image: url('./../../img/bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#modalCredencial .modal-body {
+    color: var(--color-azul);
+    padding: 0;
+    margin-top: 30px;
+}
+
+#modalCredencial .modal-body ul li {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#modalCredencial .modal-body ul li span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#modalCredencial .modal-body .avatar {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--color-azul);
+    border-radius: 100%;
+}
+
+#modalCredencial .box-border {
+    position: relative;
+    height: 40px;
+    border-bottom: 4px solid var(--color-amarillo);
+}
+
+#modalCredencial .box-border img {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    height: 40px;
+}
+
+#modalCredencial .btn-qr {
+    background-color: var(--color-amarillo);
+    height: 40px;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#modalCredencial .btn-qr span {
+    color: var(--color-azul);
+    font-size: 14px;
+    font-weight: 500;
+}
+

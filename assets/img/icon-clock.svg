@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <g id="clock" transform="translate(-4 -4)">
+    <path id="Trazado_1974" data-name="Trazado 1974" d="M12.5,21A8.5,8.5,0,1,1,21,12.5,8.5,8.5,0,0,1,12.5,21Zm6.8-8.5a6.8,6.8,0,1,0-6.8,6.8A6.8,6.8,0,0,0,19.3,12.5Zm-3.4-.85a.85.85,0,0,1,0,1.7H13.35a1.7,1.7,0,0,1-1.7-1.7V8.25a.85.85,0,0,1,1.7,0v3.4Z" fill="#2aaeff" fill-rule="evenodd"/>
+  </g>
+</svg>

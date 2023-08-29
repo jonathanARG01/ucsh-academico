@@ -1,0 +1,8 @@
+
+#page_asistencia .box-selects select {
+    background-image: url('./../../img/flecha-abajo.svg');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    background-size: auto;
+    font-weight: 600;
+}
